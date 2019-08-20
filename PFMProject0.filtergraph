@@ -46,11 +46,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="4" x="0.49625" y="0.6411290322580645" uiLastX_Normal="720"
+  <FILTER uid="4" x="0.49625" y="0.6370967741935484" uiLastX_Normal="720"
           uiLastY_Normal="400" uiopen_Normal="0">
     <PLUGIN name="PFMProject0" format="VST3" category="Instrument|Synth"
             manufacturer="EFM Productions" version="1.0.0" file="Y:\PFM Common Files\VST3\PFMProject0.vst3"
-            uid="e95417f2" isInstrument="1" fileTime="16ca152d500" infoUpdateTime="16ca158e47d"
+            uid="e95417f2" isInstrument="1" fileTime="16ca152d500" infoUpdateTime="16caca731c7"
             numInputs="0" numOutputs="2" isShell="0"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
     <LAYOUT>
@@ -60,6 +60,27 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
+  <FILTER uid="5" x="0.28375" y="0.6209677419354839" uiLastX_Normal="1035"
+          uiLastY_Normal="439" uiopen_Normal="0">
+    <PLUGIN name="BasicAudioMIDIPlugin" format="VST3" category="Fx" manufacturer="EFM Productions"
+            version="1.0.0" file="Y:\PFM Common Files\VST3\BasicAudioMIDIPlugin.vst3"
+            uid="e953a3ba" isInstrument="0" fileTime="16cab396890" infoUpdateTime="16caca731c8"
+            numInputs="2" numOutputs="2" isShell="0"/>
+    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="1" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="1" srcChannel="1" dstFilter="5" dstChannel="1"/>
+  <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="5" dstChannel="4096"/>
   <CONNECTION srcFilter="4" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="4" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
 </FILTERGRAPH>
